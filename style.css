@@ -1,63 +1,65 @@
-* {
-  margin: 0;
-  padding: 0;
+html {
+    margin: 0;
+    padding: 0;
+    cursor: url("../../ressources/img/cursor.png"), pointer;
 }
 
 body {
-  background-image: url(img/background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url(ressources/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
-  font-size: 40px;
-  color: #eee;
-  text-align: center;
-  margin-top: 55px;
-  font-family: 'Abril Fatface', cursive;
-  letter-spacing: 3px;
-  text-transform: uppercase;
+    font-size: 40px;
+    color: #eee;
+    text-align: center;
+    margin-top: 55px;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 .row {
-  display: block;
-  padding-left: 150px;
-  border: 3mm ridge #856388;
-  width: 1140px;
-  margin: 0 auto;
-  margin-top: 95px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+    display: block;
+    padding-left: 150px;
+    border: 3mm ridge #856388;
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 95px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 a {
-  font-family: 'Lobster', cursive;
-  font-weight: 400;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  text-align: center;
-  float: left;
-  color: rgba(238, 238, 238, 0.8);
-  font-size: 55px;
-  text-decoration: none;
-  margin-right: 85px;
-  background-color: rgba(29, 29, 29, 0.86);
-  padding: 10px 30px;
-  border-radius: 3px;
-  transition: all 1s;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    float: left;
+    color: rgba(238, 238, 238, 0.8);
+    font-size: 55px;
+    text-decoration: none;
+    margin-right: 85px;
+    background-color: rgba(29, 29, 29, 0.86);
+    padding: 10px 30px;
+    border-radius: 3px;
+    transition: all 1s;
 }
 
 a:hover {
-  color: #070708;
-  background-color: #3B7D9F;
-  border: solid 2px rgba(238, 238, 238, 0.8);
+    color: #070708;
+    background-color: #3B7D9F;
+    border: solid 2px rgba(238, 238, 238, 0.8);
+    cursor: url("../../ressources/img/cursor.png"), pointer;
 }
 
 p {
-  font-family: 'Questrial', sans-serif;
-  font-size: 20px;
-  color: #e9e4f0;
-  padding-bottom: 3px;
-  text-align: center;
-  line-height: 25px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    color: #e9e4f0;
+    padding-bottom: 3px;
+    text-align: center;
+    line-height: 25px;
 }
